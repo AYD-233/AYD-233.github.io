@@ -1,0 +1,139 @@
+#banner{
+	overflow: hidden;
+	max-width: 1920px;
+	min-width: 1520px;
+	margin: 0 auto;
+	overflow: hidden;
+	height: 1239px;
+}
+@font-face {
+	font-family: 'qnhgjdgy';
+	src: url('qnhgjdgy.ttf') format('truetype'), 
+	url('qnhgjdgy.svg') format('svg'),
+	url('qnhgjdgy.woff') format('woff');
+}
+body{
+	font-family: 'qnhgjdgy';
+}
+
+#qwh .dk{
+	background: url(../img/qwh_bg.png) no-repeat 0 center;
+	height: 1089px;
+}
+.mbdh{
+	font-size: 30px;
+	text-align: right;
+	height: 60px;
+}
+.mbdh span{
+	display: block;
+	width: 500px;
+	float: right;
+	border-bottom: 1px solid #000;
+	padding-bottom: 10px;
+}
+.mbdh a{
+	color: #000;
+}
+h1.bt{
+	font-weight: normal;
+	font-family: 'qnhgjdgy';
+	height: 166px;
+	margin: 0 auto;
+	text-align: center;
+	display: table;
+	font-size: 60px;
+}
+.bt span.q{
+	display: table-cell;
+	text-align: center;
+	vertical-align:middle;
+	width: 166px;
+	height: 166px;
+	background: url(../img/bt_bg.png) no-repeat;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+.bt span{
+	display: table-cell;
+	text-align: center;
+	vertical-align:middle;
+	height: 166px;
+	padding-top: 10px;
+}
+#juanz{
+	position: relative;
+	margin-top: -10px;
+	height: 756px;
+}
+#juanz .bton_l{
+	position: absolute;
+	top: 45%;
+	left: -100px;
+	cursor: pointer;
+}
+#juanz .bton_r{
+	position: absolute;
+	top: 45%;
+	right: -100px;
+	cursor: pointer;
+}
+#juanz .juanz1{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+#juanz .juanz{
+	width: 3040px;
+	transform: translateX(0px);
+	transition: all 1s;
+}
+#juanz .juanz.sq{
+	transform: translateX(-1520px);
+}
+#juanz .juanzz{
+	overflow: hidden;
+}
+#juanz .juanz1 .juanz_z.zk{
+	width: 1318px;
+	padding-left: 50px;
+}
+#juanz .juanz1 .juanz_z{
+	display: inline-block;
+	width: 0px;
+	background: url(../img/juanz_z.png);
+	height: 456px;
+	overflow: hidden;
+	font-size: 40px;
+	padding: 150px 0;
+	padding-left: 0px;
+	writing-mode: vertical-lr;
+	line-height: 100px;
+	transition: all 1s;
+}
+#juanz .juanz1 .juanz_z span{
+	/*opacity: 0;*/
+}
+#juanz .juanz1 .juanz_l{/*元素前面*/
+	content: "";
+	display: inline-block;
+	width: 79px;
+	height: 756px;
+	background: url(../img/juanz_l.png);
+}
+#juanz .juanz1 .juanz_r{/*元素后面*/
+	content: "";
+	display: inline-block;
+	width: 83px;
+	height: 756px;
+	background: url(../img/juanz_r.png);
+}
+
+#juanz .juanz2{
+	width: 1520px;
+	float: left;
+}
+

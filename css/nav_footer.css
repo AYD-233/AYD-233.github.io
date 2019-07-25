@@ -1,0 +1,129 @@
+*{padding: 0;margin: 0;}
+a{text-decoration: none;}
+/*导航*//**/
+nav{
+	background: url(../img/nav_footer/nav_bg.png) no-repeat 0 center;
+	height: 784px;
+	max-width: 1920px;
+	min-width: 1520px;
+	margin: 0 auto;
+	margin-bottom: -240px;
+	position: relative;
+	z-index: 999;
+}
+.center{
+	width: 1520px;
+	min-width: 1520px;
+	margin: 0 auto;
+}
+.dk{
+	max-width: 1920px;
+	min-width: 1520px;
+	margin: 0 auto;
+}
+#logo{
+	float: left;
+	margin: 60px 0 0 -35px;
+}
+nav ul.dh1{
+	float: right;
+	list-style-type: none;
+	margin-top: 90px;
+}
+nav ul.dh1 li.l1{
+	float: left;
+	width: 74px;
+	margin-right: 70px;
+	position: relative;
+	transition: width 1s;
+	overflow: hidden;
+	z-index: 1;
+}
+nav ul.dh1 li.l1 a.a1{
+	width: 74px;
+	height: 304px;
+	line-height: 50px;
+	font-size: 44px;
+	display: table-cell;
+	text-align: center;
+	vertical-align:middle;
+	background: url(../img/nav_footer/dh_bg.png) no-repeat;
+	color: #000;
+	transition: color 0.2s;
+}
+/*导航的首页独立样式*//**/
+nav ul.dh1 li.l11{
+	float: left;
+	width: 74px;
+	margin-right: 70px;
+	overflow: hidden;
+}
+nav ul.dh1 li.l11 a.a1{
+	width: 74px;
+	height: 304px;
+	line-height: 50px;
+	font-size: 44px;
+	display: table-cell;
+	text-align: center;
+	vertical-align:middle;
+	background: url(../img/nav_footer/dh_bg.png) no-repeat;
+	color: #000;
+	transition: color 0.2s;
+}
+nav ul.dh1 li.l11 a.a1:hover{
+	color: #fff;
+}
+/**/
+nav ul.dh1 li.l1:hover{
+	width: 404px;
+}
+nav ul.dh1 li.l1:hover ul.dh2{
+}
+nav ul.dh1 li.l1 a.a1:hover{
+	color: #fff;
+}
+
+nav ul.dh2{
+	position: absolute;
+	top: 20px;
+	/*left: 74px;*/
+	right: 0px;
+	width: 330px;
+	height: 273px;
+	list-style-type: none;
+	background: url(../img/nav_footer/znav_bg.png) no-repeat;
+	z-index: -1;
+}
+nav ul.dh2 li.l2{
+	float: left;
+	margin-left: 40px;
+}
+nav ul.dh2 li.l2 a.a2{
+	width: 35px;
+	height: 273px;
+	line-height: 50px;
+	font-size: 35px;
+	color: #3c2b2b;
+	display: table-cell;
+	text-align: center;
+	vertical-align:middle;
+	transition: color 0.2s;
+}
+nav ul.dh2 li.l2 a.a2:hover{
+	color: #fff;
+}
+/**/
+
+/*页脚*//**/
+footer{
+	background: url(../img/nav_footer/footer_bg.png) no-repeat;
+	max-width: 1920px;
+	min-width: 1520px;
+	margin: 0 auto;
+	height: 70px;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	padding-top: 110px;
+}
+/**/
